@@ -1,0 +1,107 @@
+.white-font{
+    color:#fff;
+  }
+
+
+.p-l-0{
+  padding-left: 0;
+}
+
+.p-r-0{
+  padding-right: 0;
+}
+
+  .p-a-10{
+    padding: 10px;
+  }
+
+  .p-l-10{
+    padding-left: 10px;
+  }
+
+  .p-r-10{
+    padding-right: 10px;
+  }
+
+  .p-t-10{
+    padding-top: 10px;
+  }
+
+  .p-r-40{
+    padding-right: 40px;
+  }
+
+  .f-s-15{
+    font-size: 15px;
+  }
+
+  .f-s-18{
+    font-size: 18px;
+  }
+
+  .f-s-22{
+    font-size: 22px;
+  }
+
+  .f-s-28{
+    font-size:28px;
+  }
+  
+  .b-black{
+    background: #000;
+  }
+
+  .paul-h{
+    display: none;
+  }
+ 
+/* @media only screen and (max-width: 990px) {
+
+  .paul-v{
+    display: none;
+  }
+  
+  .paul-h{
+    display: inline-block;
+    background: url('https://s3.amazonaws.com/deardorff-cdn/Content/AAA/images-black/beam-funnel.jpg');
+  }
+} */
+
+ 
+@media only screen and (max-width: 768px) {
+
+  .paul-v{
+    display: none;
+  }
+  
+  .paul-h{
+    display: inline-block;
+  }
+
+  .beam-add{
+    background: url('https://s3.amazonaws.com/deardorff-cdn/Content/AAA/images-black/miniaaa-beam.jpg');
+    background-position: center bottom;
+    padding-top: 30px;
+    background-repeat: no-repeat;
+  }
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+
+  .white-font form .form-group label{
+    font-size: 11px;
+  }
+
+  .white-font form .form-group input{
+    height: 19px;
+  }
+
+  .white-font .f-s-28{
+    font-size: 19px;
+  }
+
+  .white-font .f-s-88{
+    font-size: 14px;
+  }
+}
