@@ -89,6 +89,9 @@
   .paul-h{
     display: none;
   }
+  .w-40{
+    width: 40%;
+  }
  
   .w-90{
     width: 90%;
@@ -97,6 +100,8 @@
   .auto-m{
     margin: auto;
   }
+
+
 /* @media only screen and (max-width: 990px) {
 
   .paul-v{
