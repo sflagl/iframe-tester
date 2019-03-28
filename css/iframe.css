@@ -2,6 +2,18 @@
     color:#fff;
   }
 
+.yellow-back{
+  background-color: #ffce0a;
+}
+
+
+.round-corners {
+  border-radius: 20px;
+}
+
+.sprint-yellow{
+  color:#ffce0a;
+}
 
 .p-l-0{
   padding-left: 0;
