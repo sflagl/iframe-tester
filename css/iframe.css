@@ -91,6 +91,13 @@
     display: none;
   }
  
+  .w-90{
+    width: 90%;
+  }
+
+  .auto-m{
+    margin: auto;
+  }
 /* @media only screen and (max-width: 990px) {
 
   .paul-v{
