@@ -146,9 +146,7 @@
  
 @media only screen and (max-width: 768px) {
 
-  .paul-v{
-    display: none;
-  }
+
   
   .paul-h{
     display: inline-block;
