@@ -144,11 +144,22 @@
 } */
 
  
-@media only screen and (max-width: 768px) {
 
 
-  
 
+@media only screen and (max-width:961px){
+
+	.paul-v{
+    display: none;
+	}
+	
+	.paul-h{
+    display: inline-block;
+  }
+	
+	.dciframe-container {
+    padding-bottom: 128.25%;
+	} 
 
   .beam-add{
     background: url('https://s3.amazonaws.com/deardorff-cdn/Content/AAA/images-black/miniaaa-beam.jpg');
@@ -158,8 +169,7 @@
   }
 }
 
-
-@media only screen and (max-width: 1000px) and (min-width: 768px) {
+/* @media only screen and (max-width: 1000px) and (min-width: 768px) {
 
   .white-font form .form-group label{
     font-size: 11px;
@@ -176,4 +186,4 @@
   .white-font .f-s-88{
     font-size: 14px;
   }
-}
+} */
