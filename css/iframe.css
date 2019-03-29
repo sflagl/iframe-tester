@@ -143,9 +143,21 @@
   }
 } */
 
- 
+
+@media only screen and (min-width:1301px){
+
+  .dciframe-container {
+    height: 688px;
+	} 
+}
 
 
+@media only screen and (max-width:961px) and (min-width:1300px){
+
+  .dciframe-container {
+    height: 530px;
+	} 
+}
 
 @media only screen and (max-width:961px){
 
@@ -159,6 +171,7 @@
 	
 	.dciframe-container {
     padding-bottom: 128.25%;
+    height: 1380px;
 	} 
 
   .beam-add{
