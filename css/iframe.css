@@ -57,7 +57,7 @@
   .p-r-40{
     padding-right: 40px;
   }
-
+ 
   .f-s-10{
     font-size: 10px;
   }
@@ -190,8 +190,11 @@
 
   .dciframe-container {
 		max-height: 688px;
-
-	} 
+  } 
+  
+  .copy-left{
+    padding-left: 40px;
+  }
 }
 
 @media only screen and (max-width:961px){
