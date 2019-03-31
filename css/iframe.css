@@ -186,7 +186,7 @@
 
 
 
-@media only screen and (max-width:1301px){
+@media only screen and (min-width:1301px){
 
   .dciframe-container {
 		max-height: 688px;
