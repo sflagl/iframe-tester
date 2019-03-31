@@ -128,44 +128,6 @@
     -ms-transform: translate(-50%,-50%);
   }
 
-    /* for overlay */
-
-
-/* @media only screen and (max-width: 990px) {
-
-  .paul-v{
-    display: none;
-  }
-  
-  .paul-h{
-    display: inline-block;
-    background: url('https://s3.amazonaws.com/deardorff-cdn/Content/AAA/images-black/beam-funnel.jpg');
-  }
-} */
-
-
-
-
-/* @media only screen and (max-width: 1000px) and (min-width: 768px) {
-
-  .white-font form .form-group label{
-    font-size: 11px;
-  }
-
-  .white-font form .form-group input{
-    height: 19px;
-  }
-
-  .white-font .f-s-28{
-    font-size: 19px;
-  }
-
-  .white-font .f-s-88{
-    font-size: 14px;
-  }
-} */
-
-
 @media only screen and (max-width:991px){
   .paul-v{
     display: none;
@@ -186,25 +148,3 @@
 
 
 
-@media only screen and (min-width:1301px){
-
-  .dciframe-container {
-		max-height: 688px;
-  } 
-  
-  .copy-left{
-    padding-left: 40px;
-  }
-}
-
-@media only screen and (max-width:961px){
-	
-	.dciframe-container {
-    padding-bottom: 128.25%;
-    height: 1380px;
-    max-height: 530px;		
-		height: 100%;
-	} 
-
-
-}
