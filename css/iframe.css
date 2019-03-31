@@ -150,7 +150,7 @@
 @media only screen and (max-width:1602px){
 
   .dciframe-container {
-
+    color:red !important;
     height: 620px;
 
   }
