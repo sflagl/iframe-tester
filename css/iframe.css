@@ -150,11 +150,12 @@
 }
 
 
-@media only screen and (max-width:1602px){
+
+@media only screen and (min-width:991px) and (max-width:1407px){
 
   .dciframe-container {
-    color:red !important;
-    height: 620px;
+
+    height: 542px;
 
   }
 }
