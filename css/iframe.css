@@ -16,6 +16,10 @@
   color:#ffce0a;
 }
 
+.m-r-10{
+  margin-right: 10px;
+}
+
 .m-b-0{
   margin-bottom: 0;
 }
@@ -83,6 +87,11 @@
   .f-s-22{
     font-size: 22px;
   }
+
+  .f-s-25{
+    font-size: 25px;
+  }
+
 
   .f-s-28{
     font-size:28px;
