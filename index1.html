@@ -8,25 +8,31 @@
 <body>
     <div class="container-fluid b-black">
         <div class="row">
+            <div id="overlay" onclick="off()">
+                    <div id="text">
+                        <h1>Terms and Conditions</h1>
+                        <p class="SprintSansWeb-Regular">Limited time offers. <span class="SprintSansWeb-Medium">Activ. Fee:</span> Up to $30/line. Credit approval req. <span class="SprintSansWeb-Medium">Renewal Offer:</span> Avail. for active AAA members. Limit 1 free/paid Classic/Basic renewal fee per yr. per member number. Classic/Basic renewal fee may be applied to Plus or Premier fee. Fees are non–refundable &amp; non–transferable. Sprint acct. must remain active &amp; in good standing. Req. registration w/i 30 days of phone activ. Excl. CL, MBB devices, tablets, Sprint Phone Connect. <span class="SprintSansWeb-Medium">AAA Discount:</span> Sel. SWP only. $5/mo. AAA discount on phone line 1 on Unlimited Plus or Basic Plan. Discount subj. to change according to AAA's agmt. with Sprint &amp; is avail. upon request. Not avail. with no credit check offers. Limit one AAA discount per acct. No add'l. discounts apply. Acct. must remain in good standing to receive discount. <span class="SprintSansWeb-Medium">Safe &amp; Found:</span> Max 5 phone numbers. Req. registration prior to downloading. Location svcs functions req. parent and child devices with GPS and internet connection. Sprint does not guarantee svc. or location accuracy. Location information could be delayed, inaccurate, interrupted based on a variety of conditions. See <a href="https://safeandfound.sprint.com/subscription/AAA" target="_blank">SafeAndFound.Sprint.com/subscription/AAA</a> for details. Free svc. will discontinue if Sprint svc. or AAA membership is cancelled. If you are no longer on the Sprint AAA member program or have qualifying Sprint svc., Safe &amp; Found will be removed from your acct and the functions disabled. <span class="SprintSansWeb-Medium">Other Terms:</span> Offer/coverage not available everywhere or for all phones/networks. <span class="SprintSansWeb-Medium">May not be combinable with other offers. Offers, terms, restrictions &amp; options subj. to change according to AAA's agreement with Sprint &amp; may be modified, discontinued or terminated at any time w/out notice.</span> Accounts that cancel lines within 30 days of activating on promo pricing may void savings. Included features/content may change or be discontinued at any time. May not be combined with other offers. Restrictions apply. See store or sprint.com for details. © 2019 Sprint. All rights reserved. Sprint &amp; the logo are trademarks of Sprint. Other marks are the property of their respective owners.</p>
+                    </div>
+            </div>
 
-            <div class="col-md-7 white-font copy-left">
+            <div class="col-xl-4 col-lg-3 col-md-12 col-sm-12 col-xs-12 white-font copy-left">
                 <div class="row p-a-20">
                     <div class="col-md-12 col-sm-4 p-b-20">
                         <img class="img-fluid"src="https://promo.sprint.com/Content/AAA/images-black/sprint-logo-black.png">
                     </div>
                     <div class="col-md-12">
-                        <h1 class="f-s-28 SprintSansWeb-Medium">Thank you for pre-registering for the Exclusive Sprint AAA Member Offer! </h1>
-                        <p class="SprintSansWeb-Medium sprint-yellow m-b-05 f-s-20">Your pre-registration reference number is: IFR-2018302896000</p>
-                        <p class="f-s-18 SprintSansWeb-Regular">We will hold your pre-registration for 90 days. After that time, if you’ve not switched to Sprint, a new registration will need to be completed. Please check your email for a confirmation email.</p>
-                        <button class="yellow-back round-corners p-a-10">Shop now</button>
-                        <button class="yellow-back round-corners p-a-10">Pre-register another</button>
+                        <p class="SprintSansWeb-Medium m-b-05 f-s-20">Switch to Sprint and get your </p>
+                        <h1 class="f-s-28 sprint-yellow SprintSansWeb-Medium">AAA Membership Renewal </h1>
+                        <p class="f-s-18 SprintSansWeb-Regular">for you and your family on SPRINT!</p>
+                        <p class="f-s-10 SprintSansWeb-Regular">Must be an active Sprint subscriber. Sprint will pay Classic or Basic AAA membership renewal for as long as you remain a Sprint subscriber. Classic or Basic renewal req. active phone line and registration for each member number. Classic/Basic paid renewal fee can be applied to Plus or Premier fee.</p>
+                        <p class="f-s-10 SprintSansWeb-Regular" onclick="on()">Terms and Conditions</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 p-t-10">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 p-t-10">
                 <div class="w-90 yellow-back auto-m round-corners" style="padding: 10px 15px;">
                         <p class="SprintSansWeb-Regular p-t-10 f-s-12">To receive your Sprint AAA benefits, register your phone line(s) and AAA membership number(s).</p>
-                        <form method="post">
+                        <form action="/thankyou.html">
                             <div class="form-group">
                                 <label class="f-s-15 SprintSansWeb-Medium m-b-0" for="exampleInputEmail1">Your Mobile Number: </label>
                                 <p class="SprintSansWeb-Regular m-b-05 f-s-12">(Enter the number you’re bringing to Sprint.)</p>
@@ -40,12 +46,20 @@
                                 <label class="f-s-15 SprintSansWeb-Medium m-b-05" for="exampleInputPassword1">Email Address:</label>
                                 <input type="email" name="emailAddress" class="form-control form-control-sm" id="exampleInputPassword1" placeholder="Email Address">
                             </div>
-                            <button type="submit" class="btn white-font SprintSansWeb-Medium round-corners b-black w-40">Save Now</button>
+                            
+                                <button type="submit" class="btn white-font SprintSansWeb-Medium round-corners b-black w-40">Save Now</button>
+                          
                         </form>
                         <p class="f-s-10 SprintSansWeb-Regular">If not currently with Sprint, entering above information does not obligate you to activate a new account with Sprint at this time. It does however save you time and ensure you receive the offer benefits as quickly as possible once you do decide to take advantage of this exclusive AAA offer.</p>
                         <p class="f-s-10 SprintSansWeb-Regular">Business accounts are not eligible.</p>
                 </div>
             </div>
+            <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12 col-xs-12 beam-add p-r-0 text-center">
+                <img class="img-fluid paul-v" src="https://s3.amazonaws.com/deardorff-cdn/content/aaa/images-black/paul_vertical.png">
+                <img class="img-fluid paul-h" src="https://s3.amazonaws.com/deardorff-cdn/Content/AAA/images-black/paul_miniAAA_noback.png">
+            </div>
+
+
         </div>
     </div>
 
