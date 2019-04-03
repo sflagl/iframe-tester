@@ -7,6 +7,7 @@ if(error == false && approved == true){
     $('#img-to-error').hide();
     $( "div" ).removeClass( "beam-add" )
     $('#approve-box').show();
+    $('#error-box').hide();
     console.log('errors');
 
 }else if(error == true && approved == false){
@@ -14,6 +15,7 @@ if(error == false && approved == true){
     $('#img-to-error').hide();
     $( "div" ).removeClass( "beam-add" )
     $('#error-box').show();
+    $('#approve-box').hide();
     console.log('no errors');
 }else{
 
