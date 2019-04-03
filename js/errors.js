@@ -1,4 +1,4 @@
-var error = false;
+var error = true;
 
 
 if(error == true){
