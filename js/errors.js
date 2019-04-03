@@ -1,4 +1,29 @@
 var error = true;
+
+function errors(){
+
+    if(error == false){
+        $('#img-to-error').hide();
+        $("div").removeClass("beam-add")
+        $('#error-box').show();
+        $('#approve-box').hide();
+    } else{
+        approve();
+    }
+    
+}
+
+function approve(){
+
+    $('#img-to-error').hide();
+    $( "div" ).removeClass( "beam-add" )
+    $('#error-box').hide();
+    $('#approve-box').show();
+}
+
+errors();
+
+
 // var approved = true;
 
 
@@ -27,29 +52,3 @@ var error = true;
 
 
 
-function errors(){
-
-    if(error == false){
-
-        $('#img-to-error').hide();
-        $("div").removeClass("beam-add")
-        $('#error-box').show();
-        $('#approve-box').hide();
-
-    } else{
-
-        approve();
-
-    }
-
-}
-
-function approve(){
-
-    $('#img-to-error').hide();
-    $( "div" ).removeClass( "beam-add" )
-    $('#error-box').hide();
-    $('#approve-box').show();
-}
-
-errors();
