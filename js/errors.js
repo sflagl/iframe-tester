@@ -25,6 +25,8 @@ var approved = true;
 //     $('#error-box').hide();
 // }
 
+error();
+
 function error(){
 
     if(error == true){
