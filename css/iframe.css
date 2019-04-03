@@ -186,7 +186,7 @@
 
 @media only screen and (max-width:977px){
   .conf-headline{
-    font-size:45px;
+    font-size:45px !important;
   }
 }
 
