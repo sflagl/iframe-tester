@@ -21,4 +21,6 @@ if(error == false && approved == true){
 
     $('#img-to-error').show();
     $( "#img-to-error" ).addClass( "beam-add" )
+    $('#approve-box').hide();
+    $('#error-box').hide();
 }
