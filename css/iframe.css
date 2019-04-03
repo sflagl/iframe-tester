@@ -188,6 +188,10 @@
   .conf-headline{
     font-size:45px !important;
   }
+
+  .dislaimer-copy{
+    padding-bottom: 20px;
+  }
 }
 
 
