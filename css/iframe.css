@@ -166,6 +166,7 @@
   .beam-add{
     background: url('https://s3.amazonaws.com/deardorff-cdn/content/aaa/images-black/v-beamlight.png');
     background-repeat: no-repeat;
+    background-position-x: right;
   }
 
   @media only screen and (max-width:470px){
