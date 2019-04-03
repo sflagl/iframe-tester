@@ -204,6 +204,18 @@
   .sweeps-tv{
     width: auto !important;
   }
+
+  .offer-copy .m-b-05{
+    font-size: 30px !important;
+  }
+
+  .offer-copy .sprint-yellow{
+    font-size: 49px !important;
+  }
+
+  .offer-copy .f-s-18{
+    font-size: 22px !important;
+  }
 }
 
 
