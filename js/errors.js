@@ -1,5 +1,5 @@
 var error = true;
-var approved = true;
+// var approved = true;
 
 
 // if(error == false && approved == true){
@@ -48,8 +48,8 @@ function approve(){
 
     $('#img-to-error').hide();
     $( "div" ).removeClass( "beam-add" )
-    $('#error-box').show();
-    $('#approve-box').hide();
+    $('#error-box').hide();
+    $('#approve-box').show();
 }
 
 errors();
