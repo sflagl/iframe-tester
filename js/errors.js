@@ -25,9 +25,9 @@ var approved = true;
 //     $('#error-box').hide();
 // }
 
-error();
 
-function error(){
+
+function errors(){
 
     if(error == true){
 
@@ -51,3 +51,5 @@ function approve(){
     $('#error-box').show();
     $('#approve-box').hide();
 }
+
+errors();
