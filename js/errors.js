@@ -29,7 +29,7 @@ var approved = true;
 
 function errors(){
 
-    if(error == true){
+    if(error == false){
 
         $('#img-to-error').hide();
         $("div").removeClass("beam-add")
