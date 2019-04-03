@@ -1,4 +1,4 @@
-var error = true;
+var error = false;
 var approved = false;
 
 
@@ -19,4 +19,6 @@ if(error == false && approved == true){
     console.log('no errors');
 }else{
 
+    $('#img-to-error').show();
+    $( "#img-to-error" ).addClass( "beam-add" )
 }
