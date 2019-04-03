@@ -181,6 +181,15 @@
 }
 
 
+@media only screen and (max-width:1250px){
 
+  .conf-headline{
+    font-size:27px;
+  }
+
+  .sprint-logo{
+    width: 45%;
+  }
+}
 
 
