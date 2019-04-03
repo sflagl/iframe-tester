@@ -192,6 +192,15 @@
   .dislaimer-copy{
     padding-bottom: 20px;
   }
+
+  .sweeps-logo{
+    width: auto !important;
+  }
+
+
+  .sweeps-tv{
+    width: auto !important;
+  }
 }
 
 
