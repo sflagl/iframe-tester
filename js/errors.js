@@ -1,5 +1,5 @@
-var error = false;
-var approved = false;
+var error = true;
+var approved = true;
 
 
 if(error == false && approved == true){
