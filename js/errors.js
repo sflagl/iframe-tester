@@ -1,4 +1,4 @@
-var error = true;
+// var error = true;
 
 function errors(){
 
@@ -10,7 +10,7 @@ function errors(){
     } else{
         approve();
     }
-    
+
 }
 
 function approve(){
