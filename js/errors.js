@@ -1,6 +1,6 @@
 var error = false;
 
-console.log('test');
+console.log('test')
 if(error == true){
 
     console.log('errors');
