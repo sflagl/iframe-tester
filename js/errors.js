@@ -1,7 +1,8 @@
-var error = true;
+var error = false;
 
 
 if(error == true){
+    $('#img-to-error').hide();
 
     console.log('errors');
 
