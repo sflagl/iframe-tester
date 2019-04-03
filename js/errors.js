@@ -38,7 +38,7 @@ function error(){
 
     } else{
 
-        approve()
+        approve();
 
     }
 
@@ -50,6 +50,4 @@ function approve(){
     $( "div" ).removeClass( "beam-add" )
     $('#error-box').show();
     $('#approve-box').hide();
-
-
 }
